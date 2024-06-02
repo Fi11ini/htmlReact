@@ -1,11 +1,12 @@
 import React from 'react';
 import styled from "styled-components";
 import photo from '../../../assets/images/photo.jpg'
+import {FlexWrapper} from "../../../components/FlexWrapper";
 
 export const Main = () => {
     return (
         <div>
-            <div>
+            <FlexWrapper>
                 <span>
                     Hi There
                 </span>
@@ -17,8 +18,8 @@ export const Main = () => {
                 </h1>
 
                 <Photo src={photo} alt=""/>
-п
-            </div>
+                п
+            </FlexWrapper>
         </div>
     );
 };
